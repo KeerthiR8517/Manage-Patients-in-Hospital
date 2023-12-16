@@ -1,5 +1,5 @@
 # Manage-Patients-in-Hospital
-Manage-Patients-in-Hospital project in java using JSP, servlet, Mysql, and eclipse. Its using java as core technology and Mysql as backend to manage the data records. 
+Manage-Patients-in-Hospital project in java using servlet, Mysql, and eclipse. Its using java as core technology and Mysql as backend to manage the data records. 
 # Technology
 Technology used in the project 
 java
