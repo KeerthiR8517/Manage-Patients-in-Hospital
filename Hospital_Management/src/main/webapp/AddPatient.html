@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+</head>
+<body class="container-fluid card" style="width:40rem;">
+      <h2 class="bg-danger text-white text-center">Patient Registration</h2>
+      <form action="registerPatient" method="post">
+          <table class="table table-hover" cellspacing="10">
+         <tr>
+            <td>patient Id</td>
+            <td><input type="text" name="patientId" required></td>
+         </tr>
+         <tr>
+            <td>patient Name</td>
+            <td><input type="text" name="patientName" required></td>
+         </tr>
+         <tr>
+            <td>patient age</td>
+            <td><input type="number" name="age" required></td>
+         </tr>
+         
+         <tr>
+            <td>Phone no</td>
+            <td><input type="number" name="phoneno" required></td>
+         </tr>
+         <tr>
+            <td>Admission date</td>
+            <td><input type="date" name="aadmission_date" required></td>
+         </tr>
+         <tr>
+            <td>Discharge date</td>
+            <td><input type="date" name="discharge_date" required></td>
+         </tr>
+         <tr>
+            <td>Current status</td>
+            <td><input type="text" name="currentstatus" required></td>
+            
+         </tr>
+         <tr>
+            <td>Covid-19 Status</td>
+            <td><input type="checkbox" name="covid-19" required></td>
+         </tr>
+         <tr>
+            <td>Gender</td>
+            <td>
+               <select name="gender">
+                  <option value="male">M</option>
+                  <option value="female">F</option>
+                  <option value="others">others</option>
+               </select>
+            </td>
+         </tr>
+         <tr>
+            <td><input type="submit" value="Register"></td>
+            <td><input type="reset" value="Cancel"></td>
+         </tr>
+      </table>
+   </form>
+
+</body>
+</html>
